@@ -39,7 +39,7 @@ dropoff_longitude: float = st.number_input('Dropoff longitude:', value=40.651311
 
 dropoff_latitude: float = st.number_input('Dropoff latitude:', value=-73.8803331)
 
-passenger_count: int = st.number_input('Number of passengers:', min_value=1, max_value=4, value=1, step=1)
+passenger_count: int = st.number_input('Number of passengers:', min_value=1, max_value=6, value=1, step=1)
 
 # '''
 # ## Once we have these, let's call our API in order to retrieve a prediction
